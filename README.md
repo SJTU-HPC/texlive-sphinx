@@ -15,3 +15,7 @@ A docker image with texlive-full installed for LaTeX CI builds.
 To run the container with the current working directory mounted:
 
     docker run --rm -it -v ${PWD}:/data laurenss/texlive-full pdflatex filename.tex
+
+## Credit
+
+LaurensS/texlive-full https://github.com/LaurensS/texlive-full
