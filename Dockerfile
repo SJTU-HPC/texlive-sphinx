@@ -1,5 +1,5 @@
-# Use ubuntu eoan as parent image
-FROM ubuntu:eoan
+# Use ubuntu focal as parent image
+FROM ubuntu:focal
 # Set maintainer
 LABEL maintainer="Jianwen Wei <weijianwen@sjtu.edu.cn>"
 
