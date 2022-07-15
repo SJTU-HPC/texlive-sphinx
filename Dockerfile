@@ -23,7 +23,7 @@ RUN wget https://raw.githubusercontent.com/Halfish/lstm-ctc-ocr/master/fonts/sim
 RUN wget https://raw.githubusercontent.com/kashyapmanu/Microsoft-Fonts/master/times.ttf -O /usr/share/fonts/opentype/times.ttf
 RUN wget https://raw.githubusercontent.com/kashyapmanu/Microsoft-Fonts/master/timesbd.ttf -O /usr/share/fonts/opentype/timesbd.ttf
 RUN wget https://raw.githubusercontent.com/kashyapmanu/Microsoft-Fonts/master/timesbi.ttf -O /usr/share/fonts/opentype/timesbi.ttf
-RUN wget https://raw.githubusercontent.com/kashyapmanu/Microsoft-Fonts/master/timei.ttf -O /usr/share/fonts/opentype/timesi.ttf
+RUN wget https://raw.githubusercontent.com/kashyapmanu/Microsoft-Fonts/master/timesi.ttf -O /usr/share/fonts/opentype/timesi.ttf
 RUN fc-cache -fv
 RUN apt-get clean
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -qy pdftk
