@@ -1,12 +1,12 @@
 # Texlive-full docker image
 
-[![GitHub laurenss/texlive-full](https://img.shields.io/badge/GitHub-laurenss%2Ftexlive--full-informational)](https://github.com/laurenss/texlive-full)
-[![Docker Hub laurenss/texlive-full](https://img.shields.io/badge/Docker_Hub-laurenss%2Ftexlive--full-informational.svg)](https://hub.docker.com/r/laurenss/texlive-full)
-[![Download Size](https://images.microbadger.com/badges/image/laurenss/texlive-full.svg)](https://microbadger.com/images/laurenss/texlive-full)
-![Docker Pulls](https://img.shields.io/docker/pulls/laurenss/texlive-full)
+[![GitHub sjtuhpc/texlive-sphinx](https://img.shields.io/badge/GitHub-sjtuhpc%2Ftexlive--sphinx-informational)](https://github.com/sjtuhpc/texlive-sphinx)
+[![Docker Hub sjtuhpc/texlive-sphinx](https://img.shields.io/badge/Docker_Hub-sjtuhpc%2Ftexlive--sphinx-informational.svg)](https://hub.docker.com/r/sjtuhpc/texlive-sphinx)
+[![Download Size](https://images.microbadger.com/badges/image/sjtuhpc/texlive-sphinx.svg)](https://microbadger.com/images/sjtuhpc/texlive-sphinx)
+![Docker Pulls](https://img.shields.io/docker/pulls/sjtuhpc/texlive-sphinx)
 
-![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/laurenss/texlive-full)
-[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/laurenss/texlive-full)](https://hub.docker.com/r/laurenss/texlive-full/builds)
+![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/sjtuhpc/texlive-sphinx)
+[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/sjtuhpc/texlive-sphinx)](https://hub.docker.com/r/sjtuhpc/texlive-sphinx/builds)
 
 A docker image with texlive-full installed for LaTeX CI builds.
 
