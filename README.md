@@ -1,8 +1,7 @@
 # Texlive-full docker image
 
 [![GitHub sjtuhpc/texlive-sphinx](https://img.shields.io/badge/GitHub-sjtuhpc%2Ftexlive--sphinx-informational)](https://github.com/sjtuhpc/texlive-sphinx)
-[![Docker Hub sjtuhpc/texlive-sphinx](https://img.shields.io/badge/Docker_Hub-sjtuhpc%2Ftexlive--sphinx-informational.svg)](https://hub.docker.com/r/sjtuhpc/texlive-sphinx)
-[![Download Size](https://images.microbadger.com/badges/image/sjtuhpc/texlive-sphinx.svg)](https://microbadger.com/images/sjtuhpc/texlive-sphinx)
+[![Docker Hub sjtuhpc/texlive-sphinx](https://img.shields.io/badge/Docker_Hub-sjtuhpc%2Ftexlive---informational.svg)](https://hub.docker.com/r/sjtuhpc/texlive-sphinx)
 ![Docker Pulls](https://img.shields.io/docker/pulls/sjtuhpc/texlive-sphinx)
 
 ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/sjtuhpc/texlive-sphinx)
