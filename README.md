@@ -1,4 +1,4 @@
-# Texlive-full docker image
+# Texlive-Sphinx docker image
 
 [![GitHub sjtuhpc/texlive-sphinx](https://img.shields.io/badge/GitHub-sjtuhpc%2Ftexlive--sphinx-informational)](https://github.com/sjtuhpc/texlive-sphinx)
 [![Docker Hub sjtuhpc/texlive-sphinx](https://img.shields.io/badge/Docker_Hub-sjtuhpc%2Ftexlive---informational.svg)](https://hub.docker.com/r/sjtuhpc/texlive-sphinx)
