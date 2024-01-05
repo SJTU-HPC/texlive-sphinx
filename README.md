@@ -1,10 +1,13 @@
 # Texlive-Sphinx docker image
 
 [![GitHub sjtuhpc/texlive-sphinx](https://img.shields.io/badge/GitHub-sjtuhpc%2Ftexlive--sphinx-informational)](https://github.com/sjtuhpc/texlive-sphinx)
-[![Docker Hub sjtuhpc/texlive-sphinx](https://img.shields.io/badge/Docker_Hub-sjtuhpc%2Ftexlive---informational.svg)](https://hub.docker.com/r/sjtuhpc/texlive-sphinx)
+
+[![Docker Hub sjtuhpc/texlive-sphinx](https://img.shields.io/badge/Docker_Hub-sjtuhpc%2Ftexlive--sphinx-informational.svg)](https://hub.docker.com/r/sjtuhpc/texlive-sphinx)
+
 ![Docker Pulls](https://img.shields.io/docker/pulls/sjtuhpc/texlive-sphinx)
 
 ![Docker Cloud Automated build](https://img.shields.io/docker/cloud/automated/sjtuhpc/texlive-sphinx)
+
 [![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/sjtuhpc/texlive-sphinx)](https://hub.docker.com/r/sjtuhpc/texlive-sphinx/builds)
 
 A docker image with texlive-full installed for LaTeX CI builds.
