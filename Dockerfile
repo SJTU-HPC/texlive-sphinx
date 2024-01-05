@@ -16,6 +16,14 @@ RUN wget https://cs.fit.edu/code/projects/ndworld/repository/revisions/12/raw/Re
 RUN wget https://cs.fit.edu/code/projects/ndworld/repository/revisions/12/raw/Resources/Fonts/AdobeKaitiStd-Regular.otf -O /usr/share/fonts/opentype/AdobeKaitiStd-Regular.otf
 RUN wget https://cs.fit.edu/code/projects/ndworld/repository/revisions/12/raw/Resources/Fonts/AdobeMingStd-Light.otf -O /usr/share/fonts/opentype/AdobeMingStd-Regular.otf
 RUN wget https://cs.fit.edu/code/projects/ndworld/repository/revisions/12/raw/Resources/Fonts/AdobeFangsongStd-Regular.otf -O /usr/share/fonts/opentype/AdobeFangsongStd-Regular.otf
+RUN wget https://raw.githubusercontent.com/StellarCN/scp_zh/master/fonts/SimKai.ttf -O /usr/share/fonts/opentype/SimKai.ttf
+RUN wget https://raw.githubusercontent.com/StellarCN/scp_zh/master/fonts/SimHei.ttf -O /usr/share/fonts/opentype/SimHei.ttf
+RUN wget https://raw.githubusercontent.com/StellarCN/scp_zh/master/fonts/SimSun.ttf -O /usr/share/fonts/opentype/SimSun.ttf
+RUN wget https://raw.githubusercontent.com/Halfish/lstm-ctc-ocr/master/fonts/simfang.ttf -O /usr/share/fonts/opentype/SimFang.ttf
+RUN wget https://raw.githubusercontent.com/kashyapmanu/Microsoft-Fonts/master/times.ttf -O /usr/share/fonts/opentype/times.ttf
+RUN wget https://raw.githubusercontent.com/kashyapmanu/Microsoft-Fonts/master/timesbd.ttf -O /usr/share/fonts/opentype/timesbd.ttf
+RUN wget https://raw.githubusercontent.com/kashyapmanu/Microsoft-Fonts/master/timesbi.ttf -O /usr/share/fonts/opentype/timesbi.ttf
+RUN wget https://raw.githubusercontent.com/kashyapmanu/Microsoft-Fonts/master/timesi.ttf -O /usr/share/fonts/opentype/timesi.ttf
 RUN fc-cache -fv
 RUN apt-get clean
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -qy pdftk

@@ -16,6 +16,11 @@ To run the container with the current working directory mounted:
 
     docker run --rm -it -v ${PWD}:/data laurenss/texlive-full pdflatex filename.tex
 
+Build and push the Docker image:
+
+    docker build . -t sjtuhpc/texlive-sphinx --file Dockerfile
+    docker push sjtuhpc/texlive-sphinx
+
 ## Credit
 
 LaurensS/texlive-full https://github.com/LaurensS/texlive-full
