@@ -10,16 +10,30 @@
 
 A docker image with texlive-full installed for LaTeX CI builds.
 
+## Build
+
+Build this Docker image:
+
+    docker build . -t sjtuhpc/texlive-sphinx:latest --file Dockerfile
+
+Optionally, push the image to docker hub:
+
+    docerk login
+    docker push sjtuhpc/texlive-sphinx:latest
+
 ## Usage
 
 To run the container with the current working directory mounted:
 
-    docker run --rm -it -v ${PWD}:/data laurenss/texlive-full pdflatex filename.tex
+    docker run --rm -it -v ${PWD}:/data sjtuhpc/texlive-sphinx:latest pdflatex filename.tex
 
-Build and push the Docker image:
+To build [SJTU HPC Docs](https://github.com/SJTU-HPC/docs.hpc.sjtu.edu.cn) , try:
 
-    docker build . -t sjtuhpc/texlive-sphinx --file Dockerfile
-    docker push sjtuhpc/texlive-sphinx
+    git clone https://github.com/SJTU-HPC/docs.hpc.sjtu.edu.cn.git
+    docker run --rm -it -v ${PWD}:/data sjtuhpc/texlive-sphinx:latest ack '.*raw.*html' docs
+    docker run --rm -it -v ${PWD}:/data sjtuhpc/texlive-sphinx:latest make -C tex all
+    docker run --rm -it -v ${PWD}:/data sjtuhpc/texlive-sphinx:latest make -C docs clean latexpdf
+    docker run --rm -it -v ${PWD}:/data sjtuhpc/texlive-sphinx:latest make -C docs clean html
 
 ## Credit
 
