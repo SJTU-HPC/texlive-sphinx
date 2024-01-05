@@ -1,5 +1,5 @@
-# Use ubuntu jammy as parent image
-FROM ubuntu:jammy
+# Use ubuntu focal as parent image
+FROM ubuntu:focal
 # Set maintainer
 LABEL maintainer="Jianwen Wei <weijianwen@sjtu.edu.cn>"
 
